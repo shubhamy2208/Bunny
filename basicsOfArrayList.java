@@ -19,6 +19,7 @@ public class basicsOfArrayList {
         arr.add(90);   //push back - adding one more value and increasing the size of array
         System.out.println(arr);
         System.out.println(arr.size());// increased index
+        
 
     }
 }
