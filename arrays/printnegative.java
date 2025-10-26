@@ -20,5 +20,6 @@ public class printnegative {
             System.out.print(arr[i]+" ");
             }
         };
+        sc.close();
     }
 }

@@ -31,5 +31,6 @@ public class outputinputarr{
            for(int i=0;i<inp.length;i++){
             System.out.print(inp[i]+ " ");
           }
+    sc.close();
   }
 }
