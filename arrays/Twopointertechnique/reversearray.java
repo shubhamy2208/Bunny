@@ -14,6 +14,8 @@ public class reversearray {
             j--;
             
         }
-        for(int ele:arr) System.out.print(ele+" ");
+        for (int k = 0; k < n; k++) {
+            System.out.print(arr[k] + " ");
+        }
     }
 }
