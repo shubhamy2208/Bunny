@@ -1,3 +1,4 @@
+package array;
 class arraybasics{
 public static void main(String[] args) {
 // int arr[]= {34,45,3,5,6};
