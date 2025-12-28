@@ -1,18 +1,16 @@
 package linklist;
-
- class basicsofLL {
-
 class node{
-    String data ;
+    int data ;
     node next;
 
-    node(String data){
-        this.data= data ;
-        this.next= null;
+    node(int d){
+        this.data = d ;
+       
     }
-
-}
+ class basicsofLL {}
     public static void main(String[] args) {
-        
+        node n = new node(34);
+       System.out.println("n.data = " + n.data);
+       System.out.println("n.data = " + n.next);
     }
 }
