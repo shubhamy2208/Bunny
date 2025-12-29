@@ -9,6 +9,13 @@ class Node{
     }
 };
 public class basicofLL{
+    public static void display(Node head){
+        Node temp = head;
+        while (temp!=null) {
+            System.out.print(temp.data+" ");
+            temp= temp.next;
+        }
+    }
     public static void main(String[] args) {
 
         // creating a node 
@@ -25,10 +32,6 @@ public class basicofLL{
         d.next=e;
 
         // print the node and the address or next node 
-
-        System.out.println(a.data);
-        System.out.println(a.next);
-        System.out.println(b.next);
-
+display(a);
     }
 }
