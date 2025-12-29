@@ -23,5 +23,7 @@ class node{
         q.next=r;
        System.out.println("n.data = " + n.data);
        System.out.println("n.data = " + n.next);
+       System.out.println("n.data = " + m.data);
+       System.out.println("n.data = " + m.next);
     }
 }
