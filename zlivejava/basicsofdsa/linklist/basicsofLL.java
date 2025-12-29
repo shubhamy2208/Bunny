@@ -1,3 +1,4 @@
+//box banao
 package linklist;
 class node{
     int data ;
@@ -16,11 +17,13 @@ class node{
         node p = new node(37);
         node q = new node(38);
         node r = new node(39);
+        // connect karanage (link karange )
         n.next=m;
         m.next=o;
         o.next=p;
         p.next=q;
         q.next=r;
+        // print karna
        System.out.println("n.data = " + n.data);
        System.out.println("n.data = " + n.next);
        System.out.println("n.data = " + m.data);
