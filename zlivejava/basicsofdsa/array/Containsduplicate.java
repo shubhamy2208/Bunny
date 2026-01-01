@@ -3,7 +3,7 @@ package zlivejava.basicsofdsa.array;
 import java.util.HashSet;
 
 public class Containsduplicate {
-    class Solution {
+    class Solutions {
     public boolean containsDuplicate(int[] nums) {
         
         HashSet<Integer> set = new HashSet<>();
