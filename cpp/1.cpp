@@ -1,4 +1,4 @@
-# include <iostream>
+# include <bits/stdc++.h>   //ye sabme rahega 
 using namespace std;
 
 int main(){
