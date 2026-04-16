@@ -6,7 +6,7 @@ public class arraywithothersdatatype {
         //  };
 
 
-         String []arr = {"shubham","shub","happy"};
+         String []arr = {"shubham","shiva","happy"};
           for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
          };
