@@ -1,6 +1,6 @@
 public class findsecondlargestmax {
     public static void main(String[] args) {
-        int arr[]= {45,56,43,22,56,98,97};
+        int arr[]= {45,34};
         secondmax(arr);
         System.out.println(secondmax(arr));
     }
