@@ -1,13 +1,13 @@
 public class findsecondlargestmax {
     public static void main(String[] args) {
-        int arr[]= {45,34};
+        int arr[]= {45,45};
         secondmax(arr);
         System.out.println(secondmax(arr));
     }
 
     private static int secondmax(int[] arr) {
-        int max =Integer.MIN_VALUE;
-        int smax=Integer.MIN_VALUE;
+        int max =0;
+        int smax=0;
 
         for(int i=0;i<arr.length;i++){
             if(arr[i]>max){
@@ -20,7 +20,7 @@ public class findsecondlargestmax {
                 smax=arr[j];
             }
         }
-        if(smax==Integer.MIN_VALUE){
+        if(smax==0){
             return -1;
         }
         return smax;
