@@ -3,5 +3,6 @@
     "github.copilot.nextEditSuggestions.enabled": false,
     "github.copilot.nextEditSuggestions.extendedRange": false,
     "github.copilot.nextEditSuggestions.fixes": false,
-    "ridiculousCoding.sound": true
+    "ridiculousCoding.sound": true,
+    "java.debug.settings.onBuildFailureProceed": true
 }
