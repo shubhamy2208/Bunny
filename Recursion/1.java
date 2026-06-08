@@ -4,7 +4,7 @@ package Recursion;
 
     public static void main(String[] args) {
 
-        int[] arr = {5, 2, 8, 4, 1, 6, 7, 3, -5};
+        int[] arr = {5, 2, 8, 4,4, 1, 6, 7, 3, -5};
 
         mergeSort(arr);
 
