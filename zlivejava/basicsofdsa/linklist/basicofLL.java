@@ -9,6 +9,12 @@ class Node{
     }
 };
 public class basicofLL{
+    private static int get(Node data,int idx){
+        Node temp =data;
+        for(int i=0;i<=idx;i++){
+            temp=temp.next;
+        }
+        return temp.data;}
     // using recursion 
     public static void displayy(Node head){
         if(head==null) return;
@@ -40,6 +46,7 @@ public class basicofLL{
 
         // print the node and the address or next node 
 // display(a);
-displayy(a);
+// displayy(a);
+System.out.println(get(a,2));
     }
 }
