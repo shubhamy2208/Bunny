@@ -19,6 +19,6 @@ public class Heart {
             System.out.println();
         }
 
-        System.out.println("\n   for u emy ❤️");
+        System.out.println("\n ");
     }
 }
